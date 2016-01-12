@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!-- Meta Tags //-->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Our MAIN CSS File //-->
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<!-- Our DEEFAULT CSS File //-->
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<!-- Our COMPONENT CSS File //-->
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<!-- BootStrap CSS //-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+
+<!-- GoogleMaps AJAX API //-->
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/gmaps.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/infowindow.js"></script>
+<script type="text/javascript" src="js/marker.js"></script>
+<script type="text/javascript" src="js/overlay.js"></script>
+<script type="text/javascript" src="js/stats.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/onion.js"></script>
+<script type="text/javascript" src="js/controls.js"></script>
+<script type="text/javascript" src="js/markerclusterer.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</head>
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+	<h3>Porttowns</h3>  <!-- Change menu items here!!! -->
+<!--	<form>
+	<input type="text" id="searcher" placeholder="Search for Censuses.." style="margin:5px 0 0 10px;">
+	<input type="button" value="Search" onClick="searchme()">
+	</form> -->
+	<a href="index.html">Map</a>
+	<a href="categories.html ">Categories</a> <!-- ADD MENU LINK HERE (IN SPEECH MARKS) -->		
+	<a href="mostpopular.html">Most Popular</a>
+	<a href="walks.html">Walks in Portsmouth</a>
+	<a href="about.html">About</a>
+	<a href="partners.html">Partners</a>
+	<a href="termsConditions.html">Terms and Conditions</a>
+</nav>
+<div class="container">
+<header> 
+	<div class="nav">
+		<div class="main">
+			<section class="buttonset">
+				<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+				<span class="glyphicon glyphicon-menu-hamburger btn-lg" id="showLeftPush" style="cursor: pointer;"></span>
+			</section>
+		</div>
+	</div>
+	<div class="logo">
+		<a href="index.html"><img src="img/porttown.png"></a>
+	</div>
+	<!--
+	<div class="mapProp">
+		<span class="glyphicon glyphicon-tower btn-lg" name="sForm" onClick="showhideOverlay()" style="cursor: pointer;"></span>
+	</div> -->
+</header>
+
+		<div class="main-area">  <!-- CHANGE BODY FROM HERE -->
+			<h1>Networks, Collaboration &amp Outreach</h1>
+
+
+		<div class="pointPic">
+			<img src="img/nationalMuseumRoyalNavy.png" alt="" style="width: 100%;">
+		</div>
+		<div class="paragraphs">
+			<h4>Partnerships</h4>
+			<p>The Port Towns and Urban Cultures project is working in partnership with the National Museum of the Royal Navy.</p>
+			<h4>Networks</h4>
+			<p>The Port Towns and Urban Cultures research group are in a Port City Lives network with the Universities of Liverpool, John Moores, Hull and Warwick.</p>
+			<h4>External Funding</h4>
+			<p>2009 AHRC Collaborative Doctoral Award with the Portsmouth Royal Dockyard Historic Trust.</p>
+			<h4>Education Liaison and Outreach</h4>
+			<p>Port Towns and Urban Cultures are working with and exploring outreach opportunities with the University of Portsmouth’s Education Liaison and Outreach Department in particular, developing sessions for the highly successful and energetic UP for It Scheme for 11 to 16 year olds.</p>
+			<p><br/>To explore networking, collaboration, education liaison and outreach opportunities please email ptuc@port.ac.uk</p>
+		</div>
+	
+	
+		<footer>
+		<div class="textOne">
+			<p>
+				The Port Towns and Urban Cultures group is dedicated to furthering our 
+
+				understanding of the social and cultural impact of life in port towns from the 
+
+				eighteenth century to the modern period.
+
+				Find out more about the project, keep up to date with the latest events, be informed 
+
+				of app updates and project news by following us on Facebook and Twitter.
+
+				Got a story or image to share? Contact us <a href="mailto:ptuc@port.ac.uk">ptuc@port.ac.uk</a>
+
+				The Port Towns and Urban Cultures group is based at the University of Portsmouth 
+
+				and runs this project in partnership with other institutions and organisations, 
+
+				including Portsmouth History Centre.
+			</p>
+		</div>
+			<div class="social">
+				<a href="https://www.facebook.com/PortTownsAndUrbanCultures" target="_blank"><img src="img/fb.png"></a>
+				<a href="https://twitter.com/PortPTUC" target="_blank"><img src="img/twit.png"></a>
+			</div>
+			<div class="footerLogo"> 
+				<img src="img/footerlogo.png">
+				<p>&copy; 2015 Port Towns and Urban Cultures. All Rights Reserved.</p>
+				<h6>Designed and Created by Elisavet Andrikopoulou - Prayance</h6>
+			</div>
+			
+		</footer>
+	</div>
+
+<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+
+// need this!!!!!
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+// Need this ^^
+
+// may need this (to look cooler \/)
+
+			function disableOther( button ) {
+				//if( button !== 'showLeft' ) {
+				//	classie.toggle( showLeft, 'disabled' );
+				//}
+				//if( button !== 'showRight' ) {
+				//	classie.toggle( showRight, 'disabled' );
+				//}
+				//if( button !== 'showTop' ) {
+				//	classie.toggle( showTop, 'disabled' );
+				//}
+				//if( button !== 'showBottom' ) {
+				//	classie.toggle( showBottom, 'disabled' );
+				//}
+				//if( button !== 'showLeftPush' ) {
+				//	classie.toggle( showLeftPush, 'disabled' );
+				//}
+				//if( button !== 'showRightPush' ) {
+				//	classie.toggle( showRightPush, 'disabled' );
+				//}
+			}
+		</script>
+</body>
+</html>
