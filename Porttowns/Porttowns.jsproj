@@ -54,7 +54,6 @@
     <Content Include="css\component.css" />
     <Content Include="css\index.css" />
     <Content Include="css\main.css" />
-    <Content Include="default.html" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
